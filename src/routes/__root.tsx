@@ -81,16 +81,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "AI workflows for professionals: email drafting, meeting summaries, task planning, research and chat.",
+          "Automate daily work: draft emails, summarise meetings, plan tasks, research topics and chat with an AI assistant built for professionals.",
       },
       { property: "og:title", content: "Aster — AI Workplace Productivity Assistant" },
       {
         property: "og:description",
         content:
-          "AI workflows for professionals: email drafting, meeting summaries, task planning, research and chat.",
+          "Automate daily work: draft emails, summarise meetings, plan tasks, research topics and chat with an AI assistant built for professionals.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Aster — AI Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "Automate daily work: draft emails, summarise meetings, plan tasks, research topics and chat with an AI assistant built for professionals." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/153a63e0-49e6-4ec2-8d68-0c03db627920" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/153a63e0-49e6-4ec2-8d68-0c03db627920" },
     ],
     links: [
       {
