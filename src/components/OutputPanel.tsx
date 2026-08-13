@@ -15,10 +15,11 @@ export function OutputPanel({
 }: {
   title: string;
   loading: boolean;
-  error?: string | null;
-  output?: string | null;
+  error?: string | null | undefined;
+  output?: string | null | undefined;
   emptyHint: string;
 }) {
+
   const [copied, setCopied] = useState(false);
 
   return (
